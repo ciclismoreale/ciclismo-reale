@@ -4,6 +4,8 @@ title: "CICLISMO REALE"
 
 {{< include last_updated.md >}}
 
+Qui andrà la classifica generale.
+
 
 TO DO LIST:
 

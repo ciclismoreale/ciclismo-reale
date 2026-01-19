@@ -4,6 +4,7 @@ project:
 
 website:
   title: "CICLISMO REALE"
+  home: index.qmd 
   navbar:
     left:
       - squadre.qmd

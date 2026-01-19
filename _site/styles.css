@@ -1,0 +1,59 @@
+/* Scrollable RSS container */
+.rss-scroll {
+  max-height: 480px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Individual race card */
+.rss-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* Title */
+.rss-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.rss-title a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.rss-title a:hover {
+  text-decoration: underline;
+}
+
+/* Date */
+.rss-date {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+/* Description */
+.rss-desc {
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  margin: 0;
+  color: #374151;
+}
+
+/* Nice scrollbar (WebKit) */
+.rss-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rss-scroll::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}

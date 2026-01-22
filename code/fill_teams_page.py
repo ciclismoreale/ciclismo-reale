@@ -119,7 +119,7 @@ quarto_content = ""
 for team in teams_sorted_alpha:
     # Team header with total points
     quarto_content += f"### {team['name']} <span style='float:right'> CQ pts: {team['total_points']}</span>\n\n"
-    quarto_content += f"**Budget:** {team["budget"]} $ \n"
+    quarto_content += f"**Budget:** {team['budget']} $ \n"
 
     # Collapsible section for riders
     quarto_content += "<details>\n<summary>Corridori</summary>\n"

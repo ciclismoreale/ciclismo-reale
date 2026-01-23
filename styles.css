@@ -1,16 +1,13 @@
-/* Increase space between columns */
-.wide-gap {
-  gap: 3rem; /* tweak: 2rem–4rem usually feels good */
+/* Increase horizontal space between columns */
+.columns {
+  column-gap: 3rem;
 }
 
-/* Smartphone view: stack columns */
+/* Mobile: stack all columns vertically */
 @media (max-width: 768px) {
-  .wide-gap {
-    flex-direction: column;
-  }
-
-  .wide-gap .column {
-    width: 100% !important;
+  .columns {
+    column-count: 1;
+    row-gap: 2rem;
   }
 }
 

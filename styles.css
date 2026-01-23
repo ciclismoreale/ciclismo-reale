@@ -1,3 +1,19 @@
+/* Increase space between columns */
+.wide-gap {
+  gap: 3rem; /* tweak: 2rem–4rem usually feels good */
+}
+
+/* Smartphone view: stack columns */
+@media (max-width: 768px) {
+  .wide-gap {
+    flex-direction: column;
+  }
+
+  .wide-gap .column {
+    width: 100% !important;
+  }
+}
+
 /* Scrollable RSS container */
 .rss-scroll {
   max-height: 480px;

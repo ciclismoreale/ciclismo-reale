@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "🛞 CICLISMO REALE"
+  title: '<img src="other/logo.png" alt=""> CICLISMO REALE'
+  favicon: "other/logo.png"
   navbar:
     pinned: true
     left:
